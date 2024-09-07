@@ -1,1 +1,3 @@
-//your JS code here. If required.
+document.getElementById("fname").onblur = function(){
+	return this.value = this.value.toUpperCase();
+}
